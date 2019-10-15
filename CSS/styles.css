@@ -6,6 +6,18 @@ body {
   background-color: rgb(191,231,255);
 }
 
+.postcard {
+  margin: 0 auto;
+  max-width: 80%;
+  max-height: 50%;
+  /* background-color: red; */
+}
+
+#homePageImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 h1 {
   text-align: center;
 }
@@ -78,11 +90,11 @@ ul li  {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: ticker;
-    animation-duration: 10s;
+    animation-duration: 55s;
   }
-  .ticker-move:hover{
+  /* .ticker-move:hover{
     animation-play-state: paused;
-  }
+  } */
   .ticker-item{
     display: inline-block;
     padding: 0 2rem;

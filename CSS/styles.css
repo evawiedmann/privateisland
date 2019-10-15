@@ -1,5 +1,6 @@
 body {
   background-color: rgb(191,224,255);
+  font-family: 'Dosis', sans-serif;
 }
 
 .navbar {
@@ -16,6 +17,16 @@ body {
 #homePageImage {
   max-width: 100%;
   max-height: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 22.5%;
+  left: 0%;
+  transform: rotate(-20deg);
+  font-family: Notable, sans-serif;
+  color: #ff789c;
+  font-size: 120px;
 }
 
 h1 {
@@ -77,6 +88,7 @@ ul li  {
   .tcontainer{
     width: 100%;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
   }
   .ticker-wrap {
     width: 100%;
